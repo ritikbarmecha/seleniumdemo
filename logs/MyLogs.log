@@ -1,0 +1,4 @@
+[INFO ] 2023-12-07 14:22:12.493 [main] LogTest - Infoormantion
+[ERROR] 2023-12-07 14:22:12.500 [main] LogTest - Error
+[WARN ] 2023-12-07 14:22:12.501 [main] LogTest - warning
+[FATAL] 2023-12-07 14:22:12.502 [main] LogTest - Fatal

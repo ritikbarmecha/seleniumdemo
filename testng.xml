@@ -1,0 +1,16 @@
+
+<suite name="Suite1">
+  <test thread-count="5" name="Test1">
+	  
+	      <parameter name="myname" value="auto"></parameter>
+	     <parameter name="age" value="17"></parameter>
+
+	
+
+	  <classes>
+		  <class name="parameter.TestNGListenerDemo">
+			  
+		  </class>
+	  </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->

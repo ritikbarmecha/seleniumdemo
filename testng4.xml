@@ -1,0 +1,26 @@
+
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test  name="Test1">
+	  <parameter name="browser" value="chrome"></parameter>
+	  <classes>
+      <class name="multibrowsing.TestsNGParallel"/>
+      
+    </classes>
+  </test> <!-- Test -->
+  
+  <test  name="Test">
+	  <parameter name="browser" value="firefox"></parameter>
+	  <classes>
+      <class name="multibrowsing.TestsNGParallel"/>
+      
+    </classes>
+  </test>
+  
+  <test  name="Test3">
+	  <parameter name="browser" value="IE"></parameter>
+	  <classes>
+      <class name="multibrowsing.TestsNGParallel"/>
+      
+    </classes>
+  </test>
+</suite> <!-- Suite -->

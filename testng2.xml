@@ -1,0 +1,13 @@
+
+<suite name="Suite">
+	
+	<listeners>
+	
+<listener class-name="Listener.TestNGListener"></listener>
+</listeners>
+  <test thread-count="5" name="Test">
+    <packages>
+      <package name="Listener"/>
+    </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
